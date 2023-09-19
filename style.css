@@ -1,0 +1,89 @@
+:root {
+	--primary-font: 'Capture', Helvetica, sans-serif;
+	--secondary-font: 'Grenze Gotisch', cursive;
+	--text-color: #000;
+	--white-color: #fff;
+	--lime-color: #f3ffd4;
+	--secondary-color: #2400ff;
+	--fade-in-effect: fadein 800ms;
+	font-size: calc(1em + 0.5vw);
+	font-family: var(--secondary-font);
+	color: var(--text-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-animation: var(--fade-in-effect);
+	-moz-animation: var(--fade-in-effect);
+	-ms-animation: var(--fade-in-effect);
+	-o-animation: var(--fade-in-effect);
+	animation: var(--fade-in-effect);
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
+
+::selection {
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin: 1em;
+	padding: 0em;
+}
+
+aside {
+	border: 2px outset;
+	padding: 1em;
+}
+
+aside h4 {
+	padding: 0;
+	margin-top: 0;
+}
+
+.rsvp-item {
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	width: auto;
+}
+
+main {
+	margin: 1em;
+	border-left: ;
+}
+
+form {
+	width: 12em;
+	padding-left: 4px;
+}
+
+footer {
+	font-family: var(--primary-font);
+	font-size: 0.6em;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em;
+}
+
+footer p,
+footer a {
+	margin: 0.5em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 465px) {
+}

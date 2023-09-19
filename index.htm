@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- (c) 2023 -->
 
-<!-- (c) 2021 to present -->
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="icon" type="image/png" href="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;400;600&display=swap" rel="stylesheet">
-  <title>studioXL</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;400;600&display=swap"
+			rel="stylesheet"
+		/>
 
-</head>
+		<title>DINNER</title>
+	</head>
 
+	<body>
+		<!-- <header>
 
-
-<body>
-
-  <header>
-    <!-- logo -->
     <img src="assets/logo-bw.png" width="200px" title="XL Studio">
   </header>
   <section>
     <p>x.l studio </p>
-  </section>
+  </section> -->
 
-  <footer>
+		<aside>
+			<h4>RSVP</h4>
+			<div class="rsvp"></div>
+			<div class="rsvp-item">
+				<input
+					type="checkbox"
+					onclick="checkMe(this.checked);"
+					name="firstname"
+					placeholder="Your name.."
+				/>
 
-    <p><a>Xenia Lucie Laffely</a> / <a>instagram</a> / <a>email</a></p>
+				<input
+					type="text"
+		
+					name="firstname"
+					placeholder="Your name.."
+				/>
 
-  </footer>
+				<div id="divcheck" style="display: none">
+					<form style="width: 12em; padding-left: 4px">
+						<input type="Submit" value="<3" style="" />
+					</form>
+				</div>
+			</div>
+		</aside>
 
+		<main>
+			<h4></h4>
+			<p>
+				Hi, i am having a dinner a birthday-adjacent dinner october 15, probably
+				at 6pm to late at my place. Can you come?
+			</p>
+		</main>
 
-</body>
-
+		<footer>
+			<p><a>rupali</a> / <a>7470 rue lajeunesse</a> / <a>647 867 8365</a></p>
+		</footer>
+		<script async src="script.js"></script>
+	</body>
 </html>
