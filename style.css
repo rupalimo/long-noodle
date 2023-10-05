@@ -41,15 +41,15 @@ body {
 main {
 	width: 390px;
 	margin: 0 auto;
+
+	padding: 4%;
 }
 
 nav {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: auto auto;
-
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto auto;
 }
-
 
 ul {
 	list-style-type: none;
@@ -76,26 +76,22 @@ main img {
 	align-items: center;
 }
 em:first-of-type {
-	
 }
 em:nth-of-type(2) {
-
 }
 
 em {
-border: 2px outset rgb(222, 208, 200);
-background-color: rgb(169, 133, 88);
+	border: 2px outset rgb(222, 208, 200);
+	background-color: rgb(169, 133, 88);
 	text-align: center;
 	font-style: normal;
 	cursor: help;
-	
 }
 
 em:hover {
-
-transition: 0.0275s linear;
-border: 2px inset rgb(243, 189, 243);
-background-color: rgb(237, 221, 233);
+	transition: 0.0275s linear;
+	border: 2px inset rgb(243, 189, 243);
+	background-color: rgb(237, 221, 233);
 }
 
 aside {
@@ -125,8 +121,10 @@ footer {
 	width: 390px;
 	margin: 0 auto;
 	font-size: 16px;
-text-align: justify;
+	text-align: justify;
 	font-family: sans-serif;
+
+	padding: 4%;
 }
 
 footer p,
@@ -134,11 +132,10 @@ footer a {
 }
 
 a {
-		background-color: yellow;
+	background-color: yellow;
 }
 
 a:hover {
-
 	cursor: grab;
 	background-color: rgb(232, 100, 239);
 }
