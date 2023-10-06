@@ -73,6 +73,9 @@ footer {
 	justify-content: center;
 }
 
+u {
+	text-underline-offset: 3px;
+}
 .title__wrapper img {
 	height: 100%;
 	width: auto;
